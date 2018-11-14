@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/n9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context="com.android_examples.eight8.HomePage"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textViewHighestScoreLabel"
+            android:layout_width="145dp"
+            android:layout_height="42dp"
+            android:gravity="center"
+            android:text="HIGHEST SCORE"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewHighestScore"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewHighestScoreLabel"
+            android:gravity="center"
+            android:text="@string/_0"
+            android:textColor="@color/maroon"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/logo8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/headerlogo" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/eight_2" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/RelativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="690dp"
+        android:layout_marginTop="2dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RelativeLayout1"
+        tools:context="com.android_examples.eight8.HomePage">
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="170dp"
+            android:layout_height="169dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/playb" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

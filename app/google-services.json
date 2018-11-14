@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "772268179720",
+    "firebase_url": "https://eight-1632e.firebaseio.com",
+    "project_id": "eight-1632e",
+    "storage_bucket": "eight-1632e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772268179720:android:845824d27281f32f",
+        "android_client_info": {
+          "package_name": "com.goodfolks.eight.eight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772268179720-rrenk4mc8mcqki5b7gb17bf2jeof478u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goodfolks.eight.eight",
+            "certificate_hash": "f80955f2b33920dd8ef6d9442b6d8d7c4a4eca55"
+          }
+        },
+        {
+          "client_id": "772268179720-21skipi1t9drmc5v2hm9pbq42nkbs7jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWICzfaLi14QwO8uvqrXAWVfFXNBQDSvQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772268179720-21skipi1t9drmc5v2hm9pbq42nkbs7jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

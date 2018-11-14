@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Eight!</string>
+    <string name="_0">0</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_0_title">Eight</string>
+    <string name="slide_0_desc">A simple game which increases your intuitive maths skills</string>
+
+    <string name="slide_1_title">Swipe Right</string>
+    <string name="slide_1_desc">Swipe Right on the circle and increase the total in the right tile. </string>
+
+    <string name="slide_2_title">Swipe Left</string>
+    <string name="slide_2_desc">Swipe Left on the circle and increase the total in the left tile</string>
+
+    <string name="slide_3_title">Timer &amp; Score</string>
+    <string name="slide_3_desc1">One minute timer with bonus time and score for highest score</string>
+    <string name="slide_3_desc2">Keep the difference between the tiles less than or equal to 8</string>
+
+
+    <string name="slide_4_title">Highest Score</string>
+    <string name="slide_4_desc">Create high score, play and share with friends</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

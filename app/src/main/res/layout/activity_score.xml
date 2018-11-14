@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/n9"
+    tools:context=".ScoreActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/RelativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        tools:context="com.android_examples.eight8.MainActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="32dp">
+
+        <TextView
+            android:id="@+id/textViewHighestScoreLabel"
+            android:layout_width="145dp"
+            android:layout_height="42dp"
+            android:gravity="center"
+            android:text="HIGHEST SCORE"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewHighestScore"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewHighestScoreLabel"
+            android:gravity="center"
+            android:text="@string/_0"
+            android:textColor="@color/maroon"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/globalRankingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="GLOBAL RANKING"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewGlobalRanking"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/globalRankingButton"
+            android:gravity="center"
+            android:text="Coming Soon"
+            android:textColor="@color/maroon"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewDisplayScoreLabel"
+            android:layout_width="163dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="131dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="SCORE"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textViewDisplayScore"
+            android:layout_width="163dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/textViewDisplayScoreLabel"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/_0"
+            android:textColor="@color/green"
+            android:textFontWeight="5dip"
+            android:textSize="40sp" />
+
+        <ImageButton
+            android:id="@+id/replay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewDisplayScore"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/ic_replay"
+            android:textColor="@color/black"
+            android:text="PLAY AGAIN" />
+        <TextView
+            android:id="@+id/replayLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/replay"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="PLAY AGAIN"
+            android:textFontWeight="5dip"
+            android:textSize="20sp"/>
+
+        <!--<Button
+            android:id="@+id/shareSS"
+            android:shadowRadius="2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/replayLabel"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:text="Share ScreenShot" /> -->
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
